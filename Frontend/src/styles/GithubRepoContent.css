@@ -1,0 +1,123 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #4B0082; /* Deep Purple */
+  }
+  
+  .highlight {
+    color: #4B0082; /* Yellow */
+  }
+  
+  /* 🟣 Loading Spinner - Large & Centered */
+  .loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full screen */
+  }
+  
+  .loading-container .MuiCircularProgress-root {
+    color: #6A0DAD; /* Deep Purple */
+    width: 100px !important; /* Make it huge */
+    height: 100px !important;
+  }
+  
+
+  
+  /* 🟡 File List - Yellow & Deep Purple */
+  .file-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .file-card {
+    background: linear-gradient(45deg, white, #c0c0c0); /* Gradient from white to silver */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align items to the left */
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    color: #4B0082; /* Deep Purple */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    gap: 10px; /* Space between icon and text */
+}
+
+
+.File {
+    background: linear-gradient(45deg, white, #c0c0c0); /* Initial gradient */
+  }
+
+  
+  .File:hover {
+    background: linear-gradient(45deg, #c0c0c0, white); /* Gradient from white to silver */
+    transform: scale(1.04);
+  }
+
+  .File h3 {
+    color:#6A0DAD
+  }
+  .File:hover h3 {
+    color: #57008d;
+  }
+  
+  .Repository {
+    background: linear-gradient(45deg, white, #c0c0c0); /* Initial gradient */
+  }
+
+  .Repository h3 {
+    color:#6A0DAD
+  }
+  .Repository:hover h3 {
+    color: #57008d;
+}
+
+  .Repository:hover {
+    background: linear-gradient(45deg, #c0c0c0, white); /* Gradient from white to silver */
+    transform: scale(1.04);
+  }
+
+  /* .file-card-content {
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    
+  } */
+ 
+  
+  /* 🟡 No Files Message */
+  .no-files {
+    color: #FFD700;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  
+  /* 📄 File Content - Dark Mode */
+  .file-content {
+    background: #2D003D;
+    color: #FFD700;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 20px;
+    overflow-x: auto;
+    font-size: 16px;
+    font-family: "Courier New", Courier, monospace;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  

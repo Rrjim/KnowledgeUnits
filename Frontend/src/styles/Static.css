@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+  body {
+    background: #eee;
+    padding: 0 16px;
+  }
+  
+  header {
+    background: linear-gradient(180deg, rgba(61, 10, 107, 0.9), rgba(30, 16, 57, 0.9)); /* Adjusted opacity */
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(35, 8, 8, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0; /* Ensure it's always visible at the top */
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  
+  header h1 {
+    color: #fff;
+    font-weight: 200;
+    font-size: x-large;
+
+  }
+
+  .user-actions {
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    margin-right: 50px;
+}
+
+  .back-button {
+    padding: 5px; /* Adjust padding to fit the icon */
+    border-radius: 50%; /* Makes the button circular */
+    width: 20px; /* Set width to match the icon size */
+    height: 38px; /* Set height to match the icon size */
+
+  }
+
+  .title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #4B0082; /* Deep Purple */
+  }
+  
+  .highlight {
+    color: #FFD700; /* Yellow */
+  }
+
+  .back-button .MuiSvgIcon-root {
+    font-size: 20px; /* Adjust icon size */
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    padding-top: 1px;
+  }
+  
+  footer p {
+    color: #ccc;
+  }
+
+  .positive {
+    color: #55C966;
+  }
+
+  .negative {
+    color: #e12f2f;
+  }
+  .kuc-text-important {
+    font-weight: 900;
+  }
+  .kuc-submit-btn {
+    background-color: #552899;
+    border-radius: 8px;
+    width: 50%;
+    text-transform: none;
+  }

@@ -1,0 +1,58 @@
+.kuc-dropdown-box {
+    background-color: #e8e8f0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    cursor: pointer;
+    padding-top: 4px;
+    padding-bottom: 1px;
+    max-height: 200px;
+    width: 100%;
+    overflow-y: auto;        
+    z-index: 2;
+  }
+
+  .kuc-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    padding: 1rem;
+    color:black;
+    font-weight: 500;
+    background-color: #e8e8f0;
+    opacity: 0.95;
+  }
+
+  
+  .kuc-record-input {
+    list-style: "none";
+    padding: "0.5rem";
+    color: "white";
+    cursor: "pointer";
+    width: "100%";
+  }
+
+  .kuc-typography {
+    color: "white";
+    padding: "1rem";
+    width: "100%";
+    text-align: "center";
+    font-style: "italic";
+  }
+  
+
+  .kuc-record-list-item{
+    padding: 0.8rem;
+    list-style: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+  }
+
+  .kuc-record-list-item:hover {
+    background-color: #c2c3c0;
+    border: solid #100120;
+    border-radius: 8px;
+    border-width: 1px;
+  }
